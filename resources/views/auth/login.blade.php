@@ -31,13 +31,12 @@
         <main class="py-4" style="background-image:url(images/bg.png);" >
         <div class="container">
             <div class=" border-0 my-5">
-                <div class="card-body p-5 ">
-                <br><br><br><br>
+                <div class="card-body py-5 px-5 ">
                 <div class="container" >
                 <div class="row justify-content-center ">
                     <div class="col-md-8">
-                        <div class="card" style="background-color:#f4efeb;">
-                            <div  class="card-body" >
+                        <div class="card mb py-5 px-5" style="background-color:#f4efeb;">
+                            <div class="card-body py-5 px-5" >
                                 <form method="POST" action="{{ route('login') }}">
                                     @csrf
                                     <br>
@@ -69,15 +68,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="row mb-0">
-                                        <div class="col-md-8 offset-md-5 ">
+                                    <div class="row mb-5">
+                                        <div class="d-flex justify-content-center">
                                             <button type="submit" class="btn btn-warning mb-2 text-white">
                                                 {{ __('Login') }}
                                             </button>
-                                        </div>
-                                        <div>
-                                        <div class="col-md-8 offset-md-4">
-                                            <p> Don't have an Account?<a class="btn btn-link link-warning" href="">Register</a></p>
                                         </div>
                                     </div>
                                 </form>
@@ -86,7 +81,6 @@
                     </div>
                 </div>
             </div>
-            <br><br><br><br>
             </div>
                 </div>
             </div>
