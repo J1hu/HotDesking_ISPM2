@@ -27,7 +27,7 @@
         <div id="app">
             @include('layouts.include.navbar')
         <main>
-
+        
         </main>
         </div>
     </body>

@@ -41,8 +41,8 @@
                                 <form method="POST" action="{{ route('login') }}">
                                     @csrf
                                     <br>
-                                    <div>
-                                    <img src="logo.png" width="110" height="110" class="offset-md-5 mb-2">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="logo.png" width="210" height="180">
                                     </div>
                                     <br>
                                     <div class="row mb-3 ">
