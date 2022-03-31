@@ -21,15 +21,10 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <!-- Navbar -->
+        @include('layouts.include.navbar')
 
+<<<<<<< HEAD
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
@@ -76,8 +71,14 @@
         </nav>
 
         <main class="py-4" style="background-image:url(images/bg.png);">
+=======
+        <main>
+>>>>>>> f507d4012c47ffa7ff18bea88a3c35bb8fdcbd44
             @yield('content')
         </main>
+
+        <!-- Footer -->
+        @include('layouts.include.footer')
     </div>
 </body>
 </html>
