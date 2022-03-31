@@ -51,7 +51,7 @@
       <hr class="clearfix w-100 d-md-none pb-3">
 
       <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+      <div class="col-md-3 mb-3">
 
         <!-- Links -->
         <h5 class="text-uppercase mt-5 text-white"><b>Overview</b></h5>
@@ -69,7 +69,7 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+      <div class="col-md-3  mb-5">
 
         <!-- Links -->
         <h5 class="text-uppercase mt-5 text-white" ><b>Get Help</b></h5>
@@ -94,10 +94,5 @@
 
 </div>
 <!-- Footer Links -->
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© Copyright 2022 Group 1
-</div>
-<!-- Copyright -->
 
 </footer>
