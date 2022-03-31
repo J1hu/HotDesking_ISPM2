@@ -78,7 +78,6 @@
           <li>
               Support 
           </li>
-          <br>
           <li>
               Help Center
           </li>
