@@ -1,18 +1,18 @@
-<footer class="page-footer font-small blue pt-10" style="background-color: #27231E;">
+<footer class="page-footer font-small blue pt-10 pb-3 fixed-bottom" style="background-color: #27231E;">
 
 <!-- Footer Links -->
-<div class="container-fluid text-center text-md-left">
+<div class="container-fluid text-center">
 
   <!-- Grid row -->
   <div class="row">
     <div class="d-flex justify-content-between">
 
       <!-- Grid column -->
-      <div class="col-md-3 mt-md-0 mt-2">
+      <div class="col-md-3 mt-2 ">
 
-        <!-- Content -->
-        <h5 class="text-uppercase mt-5 text-white"><b>ホットデスク Hot Desk</b></h5>
-        <p class="text-white">Hot Desk: A user Friendly <br>
+        <!-- Content1 -->
+        <h5 class="text-uppercase mt-5 text-white "><b>ホットデスク Hot Desk</b></h5>
+        <p class="text-white ">Hot Desk: A user Friendly <br>
         Workspace Scheduling<br>
         Software.</p>
 
