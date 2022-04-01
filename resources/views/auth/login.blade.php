@@ -41,7 +41,7 @@
                                     @csrf
                                     <br>
                                     <div class="d-flex justify-content-center">
-                                    <img src="{{URL('images/hot-desk-icon.png')}}" width="210" height="180">
+                                    <img src="{{URL('images/hot-desk-icon.png')}}" width="210" height="210">
                                     </div>
                                     <br>
                                     <div class="row mb-3 ">

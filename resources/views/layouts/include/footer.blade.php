@@ -1,4 +1,4 @@
-<footer class="page-footer font-small blue pt-10 pb-3 fixed-bottom" style="background-color: #27231E;">
+<footer class="page-footer font-small blue pt-10 pb-3" style="background-color: #27231E;">
 
 <!-- Footer Links -->
 <div class="container-fluid text-center">
@@ -16,7 +16,7 @@
         Workspace Scheduling<br>
         Software.</p>
 
-        <section class="ml-4">
+        <section>
         <!-- Facebook -->
         <a 
         class="mt-2 text-decoration-none"
