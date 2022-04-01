@@ -12,7 +12,7 @@
 
         <!-- Content1 -->
         <h5 class="text-uppercase mt-5 text-white "><b>ホットデスク Hot Desk</b></h5>
-        <p class="text-white text-left ">Hot Desk: A user Friendly <br>
+        <p class="text-white">Hot Desk: A user Friendly <br>
         Workspace Scheduling<br>
         Software.</p>
 
