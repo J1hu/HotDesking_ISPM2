@@ -27,7 +27,6 @@
         <div id="app">
             @include('layouts.include.navbar')
 
-        <main class="py-4" style="background-image:url(images/bg.png);" />
         <main>
             @yield('content')
         </main>

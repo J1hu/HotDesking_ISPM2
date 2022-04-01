@@ -12,37 +12,28 @@
 
         <!-- Content1 -->
         <h5 class="text-uppercase mt-5 text-white "><b>ホットデスク Hot Desk</b></h5>
-        <p class="text-white ">Hot Desk: A user Friendly <br>
+        <p class="text-white text-left ">Hot Desk: A user Friendly <br>
         Workspace Scheduling<br>
         Software.</p>
 
         <section class="ml-4">
         <!-- Facebook -->
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #3b5998;"
-          href="#!"
-          role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+        <a 
+        class="mt-2 text-decoration-none"
+        href="https://www.facebook.com/"> <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/facebook-logo-2019-thumb.png" width="45" height="32" >
+        </a>
 
         <!-- Instagram -->
-        <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
+        <a 
+        class="m-2 text-decoration-none"
+        href="https://www.instagram.com/"> <img src="https://icon-library.com/images/instagram-circle-icon-png/instagram-circle-icon-png-4.jpg" width="30" height="30" >
+        </a>
 
         <!-- Twitter -->
-        <a
-          class="btn btn-primary btn-floating m-1"
-          style="background-color: #55acee;"
-          href="#!"
-          role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
+        <a 
+        class="m-2 text-decoration-none"
+        href="https://www.twitter.com/"> <img src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" width="30" height="30" >
+        </a>
       </section>
 
       </div>

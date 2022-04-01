@@ -28,7 +28,7 @@
         <div id="app">
             @include('layouts.include.navbar')
 
-        <main class="py-4" style="background-image:url(images/bg.png);" >
+        <main class="py-4" style="background-image:url(images/bg.png);  background-repeat: no-repeat;  background-size: cover; background-position: center;" >
         <div class="container">
             <div class=" border-0 my-5">
                 <div class="card-body py-5 px-5 ">
@@ -41,7 +41,7 @@
                                     @csrf
                                     <br>
                                     <div class="d-flex justify-content-center">
-                                        <img src="logo.png" width="210" height="180">
+                                    <img src="{{URL('images/hot-desk-icon.png')}}" width="210" height="180">
                                     </div>
                                     <br>
                                     <div class="row mb-3 ">
