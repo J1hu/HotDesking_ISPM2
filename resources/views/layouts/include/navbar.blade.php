@@ -31,17 +31,18 @@
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src="{{ asset('images/hot-desk-icon.png') }}" width="30" height="30" alt="">
                 </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">
-                        <!--<img src="#" />-->
-                        <p>
-                            Jehu Casimiro
-                            Hey hey hey!
-                        </p>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        
-                    </a>
+                <div class="dropdown-menu dropdown-menu-right col-md" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container">
+                        <div class="row mb-3 mx-auto">
+                            <img src="{{ asset('images/hot-desk-icon.png') }}" alt="..." class="rounded-circle" width="100" height="100">
+                        </div>
+                        <div class="row">
+                            <p class="username mb-0 text-center" id="username">Rengoku Kyoujiro</p>
+                            <p class="email text-warning text-center" id="email">ISPM - Group 1</p>
+                        </div>
+                    </div>
+                    
+                    <button type="button" class="btn btn-danger btn-block">Logout</button>
                 </div>
             </li>
         </ul>
