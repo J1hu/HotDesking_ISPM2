@@ -25,7 +25,7 @@
 </head>
     <body>
         <div id="app">
-            @include('layouts.include.navbar')
+            @include('layouts.include.homenavbar')
 
         <main>
             @yield('content')

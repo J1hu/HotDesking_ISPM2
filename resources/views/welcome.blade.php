@@ -25,7 +25,7 @@
 </head>
     <body>
         <div id="app">
-            @include('layouts.include.navbar')
+            @include('layouts.include.homenavbar')
         <main>
                 <div class="container d-flex justify-content-center">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis pellentesque lacus. Praesent et est ut turpis aliquet tempor non ac libero. Mauris pellentesque venenatis lectus, id mollis diam euismod quis. Aliquam non tempus enim, et convallis turpis. Mauris eleifend luctus arcu quis eleifend. Suspendisse potenti. Proin rutrum, sem quis tristique lacinia, justo nisi rhoncus nunc, vel fermentum mauris tortor a nulla. Nulla facilisi. Nulla in neque dolor. Integer faucibus sit amet odio at fermentum. Maecenas elementum enim varius odio consequat, sit amet scelerisque felis finibus. Sed varius, quam vel sodales eleifend, justo erat consectetur ante, a dignissim lectus sapien consectetur ante. In ex nunc, laoreet eget elementum a, ultrices eget felis. Integer tortor libero, cursus ut nisi quis, auctor iaculis est.
