@@ -75,6 +75,7 @@
                 </div>
             </div>
         </main>
+        @include('layouts.include.footer')
     </div>
 
 </body>
