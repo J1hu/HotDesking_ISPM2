@@ -39,6 +39,78 @@
                         
                             </p>
                 </div>
+                <div>
+                    <h2 class="text-center pb-5">Features</h2>
+                <div>
+                <div class="container pb-5">
+                    <div class="row">
+                      <div class="col">
+                        <img src="{{URL('images/booking.png') }}" width="500" height="300">
+                        
+                      </div>
+                      <div class="col">
+                        <h3 class="text-center mb-4">Booking</h3>
+                        <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you cannow have a colaborative and ideal workplace in the organization.</p>
+                        <li>Effortless reservation and booking depends on your preferred day and time.</li>
+                        <li>Flexible changes into your work calendar.</li>
+                        <li>Easily book and reserve desks with an interactive map.</li>
+                      </div>
+                    </div>
+                </div>
+                <div class="container pt-5">
+                    <div class="row">
+                      <div class="col">
+                        <h3 class="text-center pt-5">Dashboard View</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>        
+                      </div>
+                      <div class="col">
+                        <img src="{{URL('images/dashboard.png')}} " width="372" height="341">
+                        {{-- width="400" height="230" --}}
+                      </div>
+                    </div>
+                </div>
+                <div class="container pt-5">
+                    <div class="row">
+                      <div class="col">
+                        <img src="{{URL('images/map.png')}}" width="500" height="300">
+                        {{-- width="400" height="230" --}}
+                      </div>
+                      <div class="col">
+                        <h3 class="text-center mb-4 pt-5">Office Map & Desk Locations</h3>
+                        <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you cannow have a colaborative and ideal workplace in the organization.</p>
+                        <li>Effortless reservation and booking depends on your preferred day and time.</li>
+                        <li>Flexible changes into your work calendar.</li>
+                        <li>Easily book and reserve desks with an interactive map.</li>
+                      </div>
+                    </div>
+                </div>
+                <div class="container pt-5">
+                    <div class="row">
+                      <div class="col">
+                        <h3 class="text-center mb-4 pt-5">Work Calendar</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>        
+                      </div>
+                      <div class="col">
+                        <img src="{{URL('images/calendar.png')}}">
+                        {{-- width="400" height="230" --}}
+                      </div>
+                    </div>
+                </div>
+                <div class="container pt-5 pb-5">
+                    <div class="row">
+                      <div class="col">
+                        <img src="{{URL('images/help.png')}}">
+                        {{-- width="400" height="230" --}}
+                      </div>
+                      <div class="col pb-5">
+                        <h3 class="text-center mb-4 pt-5">Help & Support</h3>
+                        <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you cannow have a colaborative and ideal workplace in the organization.</p>
+                        <li>Effortless reservation and booking depends on your preferred day and time.</li>
+                        <li>Flexible changes into your work calendar.</li>
+                        <li>Easily book and reserve desks with an interactive map.</li>
+                      </div>
+                    </div>
+                </div>
         </main>
             @include('layouts.include.footer')
         </div>
