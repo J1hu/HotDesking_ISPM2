@@ -26,7 +26,7 @@
 </head>
     <body>
         <div id="app">
-            @include('layouts.include.navbar')
+            @include('layouts.include.homenavbar')
 
         <main class="py-4" style="background-image:url(images/bg.png);  background-repeat: no-repeat;  background-size: cover; background-position: center;" >
         <div class="container">

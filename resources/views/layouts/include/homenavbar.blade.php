@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #27231E;">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('images/hot-desk-icon.png') }}" width="30" height="30" alt="">
           ホットデスク Hot Desk
     </a>
@@ -14,13 +14,14 @@
                 </a>
             </li>
             <li class="nav-item dropdown active mr-5">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="{{ url('support') }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Get help
             </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{{ url('support') }}">Support</a>
                     <a class="dropdown-item" href="#">Privacy Disclaimer</a>
                     <a class="dropdown-item" href="#">User Guide</a>
-                    <a class="dropdown-item" href="#">FAQs</a>
+                    <a class="dropdown-item" href="{{ url('faqs') }}">FAQs</a>
                 </div>
             </li>
 
