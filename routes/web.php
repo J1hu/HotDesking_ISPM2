@@ -21,6 +21,11 @@ Route::get('/booking', function () {
     return view('pages.booking');
 });
 
+
+Route::get('/support', function () {
+    return view('pages.support');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
