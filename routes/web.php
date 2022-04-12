@@ -26,6 +26,10 @@ Route::get('/support', function () {
     return view('pages.support');
 });
 
+Route::get('/privacy', function () {
+    return view('pages.privacy');
+});
+
 Route::get('/faqs', function () {
     return view('pages.faqs');
 });

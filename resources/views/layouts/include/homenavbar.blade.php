@@ -19,7 +19,7 @@
             </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="{{ url('support') }}">Support</a>
-                    <a class="dropdown-item" href="#">Privacy Disclaimer</a>
+                    <a class="dropdown-item" href="{{ url('privacy') }}">Privacy Disclaimer</a>
                     <a class="dropdown-item" href="#">User Guide</a>
                     <a class="dropdown-item" href="{{ url('faqs') }}">FAQs</a>
                 </div>
