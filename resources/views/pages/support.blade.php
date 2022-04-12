@@ -20,9 +20,9 @@
 <body style="background-color: #F4EFEB;">
     <div id="app">
             @include('layouts.include.homenavbar')
-        <main>
-            <div class="">
-                <div class="mask d-flex align-items-center h-100">
+        <main class="mb-5 py-5">
+            <div class="container">
+                <div class="mask d-flex align-items-center mb-5 py-5">
                     <div class="container">
                     <h1 class="col text-center">Help Center</h1>
                         <div class="row">
