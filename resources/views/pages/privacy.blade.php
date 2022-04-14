@@ -35,7 +35,7 @@
                     <p class="col text-justify">1.Personal information that you voluntarily provide to us. Personal information is information about you that specifically identifies you or, when combined with other information we have, can be used to identify you. It includes such things as name, mailing address, telephone number, email address, date of birth, personal shopping preferences, purchase and ordering history, gender, demographic information, and financial information, such as payment card information.</p>
                     <p class="col text-justify">2.Non-identifying information we collect when you use the Site. Non-identifying information is information that alone cannot identify you and has not been associated with you. It includes such things as data from cookies or data about the device you use to access, use, or interact with our Site.</p>
                     <p class="col text-center">Sample Only</p>
-                    <div class="button" style="width: 10rem; float: right; position:fixed; bottom:0; right:0;" >
+                    <div class="button" style="width: 10rem; float: right; position:fixed; bottom:25; right:0;" >
                         <a href="#" class="btn btn-success col-md-6">Help</a>
                     </div>
             </div>

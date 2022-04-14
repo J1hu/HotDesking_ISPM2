@@ -71,7 +71,7 @@
             </div>
 
             <div>
-              <h2 class="text-center pb-5 pt-5 display-4"><strong>Features</strong></h2>
+              <h2 class="text-center pb-5 pt-5 display-4" id="features"><strong>Features</strong></h2>
             <div>
             <div class="container pb-5">
               <div class="row">
