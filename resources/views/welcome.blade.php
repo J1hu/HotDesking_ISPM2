@@ -34,7 +34,7 @@
                 <div class="row m-4">
                     <div class="col mt-4">
                         <p class="text-left pt-5 mt-5">User friendly workspace scheduling software</p>
-                        <h1 class="text-left pb-5 display-4"><strong>#GetThingsDone</strong></h2>
+                        <h1 class="text-left pb-5 display-4"><strong>#GetThingsDone</strong></h1>
                             <p>Hot Desk ensures a worthy service that allows organizations to automate booking tasks hassle free.</p>
                     </div>
                     <div class="col">
