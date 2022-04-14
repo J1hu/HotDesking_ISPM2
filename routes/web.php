@@ -22,6 +22,9 @@ Route::get('/booking', function () {
     return view('pages.booking');
 });
 
+Route::get('/dashboard', function () {
+    return view('pages.dashboard');
+});
 
 Route::get('/support', function () {
     return view('pages.support');
