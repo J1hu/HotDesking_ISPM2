@@ -27,52 +27,56 @@
         <div id="app">
             @include('layouts.include.homenavbar')
         <main>
-        <div class="row">
+            <div class="container-fluid">
+                <div class="row">
 
-            <!--LEFT SIDE -->
-            <section class="w-50" style="background-color:#F4EFEB">
-                    <h1 class="mb-1 py-5 ml-5 pl-5"> Desk Reservation</h1>
-                    <form class="ml-5 pl-5 mr-5 pr-5">
-                        <div class="form-row">
-                            <div class="form-group col-md-6 ">
-                                <label for="inputLocation4">Select desk location:</label>
-                                <input type="text" class="form-control rounded border border-dark" id="inputEmail4">
+                    <!--LEFT SIDE -->
+                    <div class="col-8" style="background-color:#F4EFEB">
+                            <h1 class="mb-1 py-5 ml-5 pl-5"> Desk Reservation</h1>
+                            <form class="ml-5 pl-5 mr-5 pr-5">
+                                <div class="row">
+                                    <div class="form-group col-md-6 ">
+                                        <label for="inputLocation4">Select desk location:</label>
+                                        <input type="text" class="form-control rounded border border-dark" id="inputText4">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputDate4">Select date:</label>
+                                        <input type="date" class="form-control rounded border border-dark" id="inputPassword4">
+                                    </div>
+                                </div>
+                                <div class="row mb-2 pb-2">
+                                    <b-form-timepicker class="col-md-6">
+                                        <label for="inputTime4">Select start time:</label>
+                                        <input type="time" class="form-control rounded border border-dark" id="inputTime4">
+                                    </b-form-timepicker>
+                                    <b-form-timepicker class="col-md-6">
+                                        <label for="inputPassword4">Select end time:</label>
+                                        <input type="time" class="form-control rounded border border-dark" id="inputTime4">
+                                    </b-form-timepicker>
+                                </div>
+                                <div class="d-flex">
+                                        <p class="opacity-50 p-1 font-italic">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p>
+                                    <div class="ml-auto p-2">
+                                        <button type="submit" class="btn btn-lg btn-warning text-white">Reserve desk</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="mx-5 px-5 my-4 py-4">
+                                <img src="{{ asset('images/calendar-view.png') }}" class="rounded mx-auto d-block w-75 h-75" alt="Responsive image">  
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputDate4">Select date:</label>
-                                <input type="date" class="form-control rounded border border-dark" id="inputPassword4">
-                            </div>
+                    </div>
+                    
+                    <!--RIGHT SIDE -->
+                    <div class="col-4">
+                        <div class="mt-3 pt-3">
+                            <div class="w-150 h-150 mb-1 py-5">
+                                <img src="{{ asset('images/desk-map.png') }}" class="" alt="Responsive image">  
+                            </div>  
+                            <h2 class="font-weight-bold mx-3 px-3">DESK LOCATIONS</h2>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Select start time:</label>
-                                <input type="email" class="form-control rounded border border-dark" id="inputEmail4">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputPassword4">Select end time:</label>
-                                <input type="password" class="form-control rounded border border-dark" id="inputPassword4">
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                                <p class="opacity-50 p-1 font-italic">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p>
-                            <div class="ml-auto p-2">
-                                <button type="submit" class="btn btn-lg btn-warning text-white">Reserve desk</button>
-                            <div>
-                        </div>
-                    </form>
-            </section>
-            
-             <!--RIGHT SIDE -->
-            <section class="w-50">
-                <div class="col-md-8">
-                    <div class="w-150 h-150 mb-1 py-5 ml-3 pl-5">
-                        <img src="{{ asset('images/desk-map.png') }}" class=" img-fluid" alt="Responsive image">  
-                    </div>  
-
+                    </div>
                 </div>
-            </section>
             </div>
-        </div>
         </main>
         @include('layouts.include.footer')
         </div>
