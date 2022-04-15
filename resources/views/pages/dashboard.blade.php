@@ -5,11 +5,11 @@
 <div class="container" >
     <h1 class="text-left pt-5 display-4"><strong>Dashboard</strong></h2>
     <p>Wed feb 23,2022</p>
-    <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8);" id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel" data-pause="hover">
+    <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8); border-radius: 10px;" id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
-        <div class="carousel-item active " style="color: #EA7101;" >
+        <div class="carousel-item active " style="color: #FFFFFF; font-family: 'Signika SC';" >
           <h2 class="text-center display-4"><strong>Table 1</strong></h2> 
-            <table class="table table-bordered mb-0 " style="color: #EA7101;" >
+            <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto';" >
               <thead>
                 <tr>
                   <th scope="col">Time</th>
@@ -20,167 +20,167 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">12:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">1:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">2:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">3:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">4:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">5:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">6:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">7:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">8:00 am</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td><b>Occupied<b></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">9:00 am</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td><b>Occupied<b></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">10:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">11:00 am</td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">12:00 pm</td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">1:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">2:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">3:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">4:00 pm</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">5:00 pm</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">6:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">7:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">8:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">9:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">10:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">11:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
@@ -190,9 +190,9 @@
               </tbody>
             </table>
         </div>
-        <div class="carousel-item" style="color: #EA7101;">
+        <div class="carousel-item" style="color: #FFFFFF; font-family: 'Signika SC';">
           <h2 class="text-center display-4"><strong>Table 2</strong></h2>  
-            <table class="table table-bordered mb-0 " style="color: #EA7101;">
+            <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto';">
               <thead>
                 <tr>
                   <th scope="col">Time</th>
@@ -203,167 +203,167 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">12:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">1:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">2:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">3:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">4:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">5:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">6:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">7:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">8:00 am</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td><b>Occupied<b></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">9:00 am</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td><b>Occupied<b></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">10:00 am</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">11:00 am</td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">12:00 pm</td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">1:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">2:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">3:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">4:00 pm</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">5:00 pm</td>
                   <td></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">6:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td><b>Occupied<b></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">7:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">8:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">9:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">10:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
-                <tr>
+                <tr style="color: #F7B51F;">
                   <td scope="row">11:00 pm</td>
                   <td><b>Occupied<b></td>
                   <td></td>
