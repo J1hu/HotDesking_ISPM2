@@ -3,9 +3,22 @@
 @section('content')
 
 <div class="container" >
-  <h1 class="text-left pt-5 display-4"><strong>Dashboard</strong></h2>
+  <h1 class="text-left pt-5 pb-5 display-4"><strong>Dashboard</strong></h2>
   <p>Wed feb 23,2022</p>
   <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8); border-radius: 10px;" id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel" data-pause="hover">
+   <div class="col-auto ml-5 mt-4" >
+    <div class="input-group mb-2" style="border-radius: 20px;">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <img src="{{URL('images/calendar-icon.png')}}" width="10" height="10">
+        </div>
+      </div>
+      <input style=" max-width: 300px; width: 18rem; background: #C4C4C4;" type="text" class="date form-control align-left" placeholder="Datepicker"/>
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-calendar"></span>
+      </span>
+    </div>
+  </div>
     <div class="carousel-inner">
       <div class="carousel-item active " style="color: #FFFFFF; font-family: 'Signika SC';" >
         <h2 class="text-center display-4"><strong>Table 1</strong></h2> 
@@ -374,11 +387,11 @@
           </table>
       </div>
     </div>
-    <a class="carousel-control-prev d-flex align-items-start mt-4" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a class="carousel-control-prev d-flex align-items-start mt-5 pt-5" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next d-flex align-items-start mt-4" href="#carouselExampleControls" role="button" data-slide="next">
+    <a class="carousel-control-next d-flex align-items-start mt-5 pt-5" href="#carouselExampleControls" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
