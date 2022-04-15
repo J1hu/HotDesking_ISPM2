@@ -30,6 +30,10 @@ Route::get('/support', function () {
     return view('pages.support');
 });
 
+Route::get('/userguide', function () {
+    return view('pages.userguide');
+});
+
 Route::get('/privacy', function () {
     return view('pages.privacy');
 });

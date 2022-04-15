@@ -53,7 +53,7 @@
                             <h5 class="card-title text-center mt-3">User Guide</h5>
                             <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-warning col-md-6">View</a>
+                                <a href="{{ url('userguide') }}" class="btn btn-warning col-md-6">View</a>
                             </div>
                         </div>
                     </div>
