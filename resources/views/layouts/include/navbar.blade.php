@@ -1,16 +1,16 @@
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #27231E;">
     <a class="navbar-brand" href="{{ url('dashboard') }}">
         <img src="{{ asset('images/hot-desk-icon.png') }}" width="30" height="30" alt="">
-         Hot Desk
+        Hot Desk
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
+    <div class="navbar-collapse collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Book a desk
+                    Book a desk
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="{{ url('booking') }}">Reservation</a>
@@ -18,7 +18,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('support') }}" >Get help</a>
+                <a class="nav-link" href="{{ url('support') }}">Get help</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,7 +34,7 @@
                             <p class="email text-warning text-center" id="email">ISPM - Group 1</p>
                         </div>
                     </div>
-                    
+
                     <button type="button" class="btn btn-danger btn-block">Logout</button>
                 </div>
             </li>
