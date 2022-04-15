@@ -25,7 +25,7 @@
 </head>
     <body>
         <div id="app">
-            @include('layouts.include.homenavbar')
+            @include('layouts.include.navbar')
         <main>
             <div class="container-fluid">
                 <div class="row">
@@ -37,7 +37,21 @@
                                 <div class="row">
                                     <div class="form-group col-md-6 ">
                                         <label for="inputLocation4">Select desk location:</label>
-                                        <input type="text" class="form-control rounded border border-dark" id="inputText4">
+                                        <input type="text" class="form-control rounded border border-dark" id="inputText4" list="desks" placeholder="Choose an available desk">
+                                            <datalist id="desks">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="A1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                                <option value="B1">
+                                            </datalist>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputDate4">Select date:</label>
@@ -81,3 +95,9 @@
         @include('layouts.include.footer')
         </div>
     </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</html>
