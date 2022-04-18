@@ -31,7 +31,7 @@
                 <div class="row">
 
                     <!--LEFT SIDE -->
-                    <div class="col-8" style="background-color:#F4EFEB">
+                    <div class="col-lg-8" style="background-color:#F4EFEB">
                             <h1 class="mb-1 py-5 ml-5 pl-5"> Desk Reservation</h1>
                             <form class="ml-5 pl-5 mr-5 pr-5">
                                 <div class="row">
@@ -58,7 +58,7 @@
                                         <input type="date" class="form-control rounded border border-dark" id="inputPassword4">
                                     </div>
                                 </div>
-                                <div class="row mb-2 pb-2">
+                                <!--<div class="row mb-2 pb-2">
                                     <b-form-timepicker class="col-md-6">
                                         <label for="inputTime4">Select start time:</label>
                                         <input type="time" class="form-control rounded border border-dark" id="inputTime4">
@@ -67,10 +67,10 @@
                                         <label for="inputPassword4">Select end time:</label>
                                         <input type="time" class="form-control rounded border border-dark" id="inputTime4">
                                     </b-form-timepicker>
-                                </div>
-                                <div class="d-flex">
-                                        <p class="opacity-50 p-1 font-italic">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p>
-                                    <div class="ml-auto p-2">
+                                </div>-->
+                                <div class="d-flex pt-4">
+                                        <p class="opacity-50 my-auto font-italic mr-4">Due to strict implementation of health guidelines and safety protocols,<br> some seats may currently be unavailable for reservation.</p>
+                                    <div class="ml-auto my-auto">
                                         <button type="submit" class="btn btn-lg btn-warning text-white">Reserve desk</button>
                                     </div>
                                 </div>
@@ -81,12 +81,12 @@
                     </div>
                     
                     <!--RIGHT SIDE -->
-                    <div class="col-4">
-                        <div class="mt-3 pt-3">
-                            <div class="w-150 h-150 mb-1 py-5">
-                                <img src="{{ asset('images/desk-map.png') }}" class="" alt="Responsive image">  
+                    <div class="col-lg-4">
+                        <div class="container">
+                            <div class="w-150 h-150">
+                                <img src="{{ asset('images/map-90.png') }}" class="d-block mx-auto my-5" alt="Responsive image">  
                             </div>  
-                            <h2 class="font-weight-bold mx-3 px-3">DESK LOCATIONS</h2>
+                            <h2 class="font-weight-bold text-right pb-3">DESK LOCATIONS</h2>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
 </html>

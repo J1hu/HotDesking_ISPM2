@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #27231E;">
-    <a class="navbar-brand" href="{{ url('dashboard') }}">
+<nav class="navbar navbar-expand-sm sticky-top navbar-dark" style="background-color: #27231E;">
+    <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('images/hot-desk-icon.png') }}" width="30" height="30" alt="">
         Hot Desk
     </a>
@@ -8,7 +8,10 @@
     </button>
     <div class="navbar-collapse collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
+            <li class="nav-item mr-4">
+                <a class="nav-link" href="{{ url('dashboard') }}">Dashboard</a>
+            </li>
+            <li class="nav-item dropdown mr-4">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Book a desk
                 </a>
@@ -17,12 +20,12 @@
                     <a class="dropdown-item" href="#">Calendar</a>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-4">
                 <a class="nav-link" href="{{ url('support') }}">Get help</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="{{ asset('images/avatar.png') }}" class="rounded-circle" width="30" height="30" alt="">
+                    <img src="{{ asset('images/avatar.png') }}" class="rounded-circle" width="25" height="25" alt="">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right col-md" aria-labelledby="navbarDropdownMenuLink">
                     <div class="container pt-2">

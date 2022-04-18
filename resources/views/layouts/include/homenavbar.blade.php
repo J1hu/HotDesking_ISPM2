@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #27231E;">
+<nav class="navbar navbar-expand-sm sticky-top navbar-dark" style="background-color: #27231E;">
     <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('images/hot-desk-icon.png') }}" class="rounded-circle" width="30" height="30" alt="">
          Hot Desk
@@ -8,15 +8,15 @@
     </button>
     <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-5">
+            <li class="nav-item mr-4">
                 <a class="nav-link" href="{{ url('/#features') }}">
                 Features
                 </a>
             </li>
-            <li class="nav-item mr-5">
+            <li class="nav-item mr-4">
                 <a class="nav-link" href="{{ url('support') }}" >Get help</a>
             </li>
-            <li class="nav-item mr-5">
+            <li class="nav-item">
                 <a class="btn btn-outline-warning" role="button" aria-haspopup="true" aria-expanded="false" href="{{ url('login') }}">
                 Log In
                 </a>

@@ -30,7 +30,7 @@
 </head>
     <body>
         <div id="app">
-            @include('layouts.include.homenavbar')
+            @include('layouts.include.navbar')
 
         <main>
             @yield('content')
