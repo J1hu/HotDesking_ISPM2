@@ -399,7 +399,7 @@
 
   <div class="container pb-5 pt-5" >
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
             <div class="card-body" style="color: #EA7101;">
               <div class="d-flex justify-content-center">
@@ -412,7 +412,7 @@
             </div>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
             <div class="card-body" style="color: #EA7101;">
               <div class="d-flex justify-content-center">
@@ -425,7 +425,7 @@
             </div>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
             <div class="card-body" style="color: #EA7101;">
               <div class="d-flex justify-content-center">

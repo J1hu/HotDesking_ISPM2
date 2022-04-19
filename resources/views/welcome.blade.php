@@ -75,11 +75,11 @@
             <div>
             <div class="container pb-5">
               <div class="row">
-                <div class="col">
+                <div class="col d-flex justify-content-center">
                   <img src="{{URL('images/booking.png') }}" width="500" height="300">       
                 </div>
                   <div class="col">
-                    <h3 class="text-center mb-4">Booking</h3>
+                    <h3 class="text-center pt-5">Booking</h3>
                     <p>Desk reservation made easy through hot desk software, with a simple and intuitive user interface for work scheduling, you cannow have a colaborative and ideal workplace in the organization.</p>
                     <li>Effortless reservation and booking depends on your preferred day and time.</li>
                     <li>Flexible changes into your work calendar.</li>
@@ -87,20 +87,20 @@
                   </div>
               </div>
             </div>
-            <div class="container pt-5">
+            <div class="container ">
                 <div class="row">
                   <div class="col">
                     <h3 class="text-center pt-5">Dashboard View</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p>        
                   </div>
-                  <div class="col">
+                  <div class="col pt-5 d-flex justify-content-center">
                     <img src="{{URL('images/dashboard.png')}} " width="372" height="372">
                   </div>
                 </div>
             </div>
             <div class="container pt-5 mt-5">
                 <div class="row">
-                  <div class="col">
+                  <div class="col d-flex justify-content-center pb-5">
                     <img src="{{URL('images/map.png')}}" width="500" height="300">
                   </div>
                   <div class="col">
@@ -109,26 +109,26 @@
                   </div>
                 </div>
             </div>
-            <div class="container pt-5 mt-5">
+            <div class="container pt-5">
                 <div class="row">
-                  <div class="col">
+                  <div class="col ">
                     <h3 class="text-center mb-4 pt-5">Work Calendar</h3>
                     <p>Build to operate the organization’s activities with more effective and efficient to boost productivity within the company. </p>        
                     <li>Easily back track all the activities done in the records.</li>
                     <li>Hassle-free management with simple and easy to use set-up.</li>
                   </div>
-                  <div class="col">
+                  <div class="col pt-5 d-flex justify-content-center">
                     <img src="{{URL('images/calendar.png')}}">
                   </div>
                 </div>
             </div>
             <div class="container pt-5 pb-5 mt-5">
               <div class="row">
-                <div class="col">
+                <div class="col d-flex justify-content-center">
                   <img src="{{URL('images/help.png')}}" width="500" height="270">
                 </div>
                 <div class="col pb-5">
-                  <h3 class="text-center mb-4 ">Help & Support</h3>
+                  <h3 class="text-center mb-4 pt-5 d-flex justify-content-center">Help & Support</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel est sed metus commodo vehicula. Pellentesque sed massaaccumsan, dapibus augue ac, tincidunt lorem. Nam tincidunt sem sed luctus auctor. Praesent felis felis, maximus nec scelerisque </p> 
                 </div>
               </div>
