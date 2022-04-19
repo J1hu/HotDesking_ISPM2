@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container" >
-  <h1 class="text-left pt-5 pb-5 display-4" style="font-family: 'Open Sans';"><b>Dashboard</b></h2>
+  <h1 class="text-left pt-5 pb-5 display-4"><strong>Dashboard</strong></h2>
   <p>Wed feb 23,2022</p>
   <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8); border-radius: 10px;" id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel" data-pause="hover">
    <div class="col-auto ml-5 mt-4" >
@@ -22,7 +22,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active " style="color: #FFFFFF; font-family: 'Signika SC';" >
         <h2 class="text-center display-4"><strong>Table 1</strong></h2> 
-          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto';" >
+          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto'; text-align: center;" >
             <thead>
               <tr>
                 <th scope="col">Time</th>
@@ -205,7 +205,7 @@
       </div>
       <div class="carousel-item" style="color: #FFFFFF; font-family: 'Signika SC';">
         <h2 class="text-center display-4"><strong>Table 2</strong></h2>  
-          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto';">
+          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto'; text-align: center;">
             <thead>
               <tr>
                 <th scope="col">Time</th>
@@ -399,7 +399,7 @@
 
   <div class="container pb-5 pt-5" >
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
             <div class="card-body" style="color: #EA7101;">
               <div class="d-flex justify-content-center">
@@ -412,7 +412,7 @@
             </div>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
             <div class="card-body" style="color: #EA7101;">
               <div class="d-flex justify-content-center">
@@ -425,7 +425,7 @@
             </div>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-sm pb-3 pt-3 d-flex justify-content-center">
         <div class="card" style="width: 18rem; border-radius: 15px; background: rgba(9, 9, 9, 0.8);">
             <div class="card-body" style="color: #EA7101;">
               <div class="d-flex justify-content-center">
