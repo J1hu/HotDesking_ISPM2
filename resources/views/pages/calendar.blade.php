@@ -2,11 +2,11 @@
 
 @section('content')
 
-<div class="container" >
+<div class="container pb-5" >
   <h1 class="text-left pt-5 pb-5 display-4"><b>Calendar</b></h2>
   <p>Wed feb 23,2022</p>
-  <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8); border-radius: 10px;" id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel" data-pause="hover">
-   <div class="col-auto ml-5 mt-4" >
+  <div style="position: relative; height: 740px; overflow: auto; display: block; background: rgba(9, 9, 9, 0.8); border-radius: 10px;" >
+   <div class="col-auto mt-4 " >
     <div class="input-group mb-2" style="border-radius: 20px;">
       <div class="input-group-prepend">
         <div class="input-group-text">
