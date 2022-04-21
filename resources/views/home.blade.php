@@ -22,7 +22,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active " style="color: #FFFFFF; font-family: 'Signika SC';" >
         <h2 class="text-center display-4"><strong>Table 1</strong></h2> 
-          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto';" >
+          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto'; text-align: center;" >
             <thead>
               <tr>
                 <th scope="col">Time</th>
@@ -205,7 +205,7 @@
       </div>
       <div class="carousel-item" style="color: #FFFFFF; font-family: 'Signika SC';">
         <h2 class="text-center display-4"><strong>Table 2</strong></h2>  
-          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto';">
+          <table class="table table-bordered mb-0 " style="color: #FFFFFF; font-family: 'Roboto'; text-align: center;">
             <thead>
               <tr>
                 <th scope="col">Time</th>

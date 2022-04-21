@@ -42,6 +42,10 @@ Route::get('/faqs', function () {
     return view('pages.faqs');
 });
 
+Route::get('/calendar', function () {
+    return view('pages.calendar');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
